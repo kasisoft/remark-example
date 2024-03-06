@@ -8,6 +8,9 @@ devDependencies:
   '@fontsource/fira-mono':
     specifier: ^4.5.10
     version: 4.5.10
+  '@kasisoft/remark-imagetools':
+    specifier: ^0.1.1
+    version: 0.1.1
   '@kasisoft/remark-svelte-auto-import':
     specifier: ^0.2.0
     version: 0.2.0
@@ -588,6 +591,11 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@kasisoft/remark-imagetools@0.1.1:
+    resolution: {integrity: sha512-yBmXT6/Ft8xsiNjps+fFgkveEzbuT7BW91LySCJIlVNbCNKhQKjgnfQGDI0e1jrbE+c3wQ94gYKgNro5/OO7xQ==}
+    engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
   /@kasisoft/remark-svelte-auto-import@0.2.0:
