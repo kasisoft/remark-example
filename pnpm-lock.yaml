@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@kasisoft/remark-svelte-auto-import':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.2.1
+    version: 0.2.1
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -598,12 +598,9 @@ packages:
     engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
-  /@kasisoft/remark-svelte-auto-import@0.2.0:
-    resolution: {integrity: sha512-6qHPrs+IRG2FvhhTNXz1DISn7RdELYJKuQTfZ9Fxml44IOvCq5j0rAASeWdzcloesSRwl4QZRae208TlUaMmwQ==}
-    dependencies:
-      chalk: 5.3.0
-      fast-glob: 3.3.2
-      unist-util-visit: 5.0.0
+  /@kasisoft/remark-svelte-auto-import@0.2.1:
+    resolution: {integrity: sha512-c6niKbA0reg/ZFQxDB5SUW52OSHfBUOgeWaABVklQ2/4QgWsMSzdcHfSUIbPGaLgclGEVy+SoI/uOYf9Y9rUSw==}
+    engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
   /@neoconfetti/svelte@1.0.0:
@@ -1124,11 +1121,6 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-    dev: true
-
-  /chalk@5.3.0:
-    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /chokidar@3.6.0:
