@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@kasisoft/remark-svelte-auto-import':
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.2.2
+    version: 0.2.2
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -598,8 +598,8 @@ packages:
     engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
-  /@kasisoft/remark-svelte-auto-import@0.2.1:
-    resolution: {integrity: sha512-c6niKbA0reg/ZFQxDB5SUW52OSHfBUOgeWaABVklQ2/4QgWsMSzdcHfSUIbPGaLgclGEVy+SoI/uOYf9Y9rUSw==}
+  /@kasisoft/remark-svelte-auto-import@0.2.2:
+    resolution: {integrity: sha512-IuFX2AnUQ/KfwlU6uvpu9jmsqy2Qu0gx6jn8tcHJU0KqZxgmUi7bbf0WW23zs2JMFLfOErbBxRVIjCA+2I88LQ==}
     engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 

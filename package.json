@@ -14,7 +14,7 @@
     "devDependencies": {
         "@fontsource/fira-mono": "^4.5.10",
         "@kasisoft/remark-imagetools": "^0.1.1",
-        "@kasisoft/remark-svelte-auto-import": "^0.2.1",
+        "@kasisoft/remark-svelte-auto-import": "^0.2.2",
         "@neoconfetti/svelte": "^1.0.0",
         "@sveltejs/adapter-auto": "^3.0.0",
         "@sveltejs/adapter-static": "^3.0.1",
