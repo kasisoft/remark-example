@@ -11,7 +11,7 @@ const config = defineConfig({
         [
             remarkImagetools,
             {
-                debug: Debug.None,
+                debug: ['None', 'ScriptBefore', 'ScriptAfter'],
                 presets: [
                     {
                         name: "mobile",
@@ -23,6 +23,7 @@ const config = defineConfig({
         [
             remarkSvelteAutoImport,
             {
+                debug: ['None', 'ScriptBefore', 'ScriptAfter'],
                 scriptTS: true,
                 directories: [
                     'src/lib/components/'
