@@ -4,6 +4,12 @@
 
 This is a simple show case for the use of [remark-imagetools].
 
+# Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e5eb5c3-3cf5-4e23-bdc3-3f20b7602b63/deploy-status)](https://app.netlify.com/sites/remark-imagetools-example/deploys)
+
+Example deployment: **[Demo](https://main--remark-imagetools-example.netlify.app/)**
+
 
 # Usage
 
