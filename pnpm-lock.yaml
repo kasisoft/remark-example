@@ -9,11 +9,11 @@ devDependencies:
     specifier: ^4.5.10
     version: 4.5.10
   '@kasisoft/remark-imagetools':
-    specifier: ^0.1.2
-    version: 0.1.2
+    specifier: ^0.1.3
+    version: 0.1.3
   '@kasisoft/remark-svelte-auto-import':
-    specifier: ^0.2.3
-    version: 0.2.3
+    specifier: ^0.2.4
+    version: 0.2.4
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -593,13 +593,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@kasisoft/remark-imagetools@0.1.2:
-    resolution: {integrity: sha512-KLDpUkJia3PDfhkShj7h39/HpA1zJeuULny0fgTyBrFBBw9jtlDDwfdL4Jp04XO7AoSwwFlF/76U8Z+OY008RA==}
+  /@kasisoft/remark-imagetools@0.1.3:
+    resolution: {integrity: sha512-9M5auqIJZItUhiH+oiBnl5nheGYXe+WNEaM/F/aVBYZjUrkorUHZpo+MmduF1i3SMh9FqL3VJzMURYJvOl0XEw==}
     engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
-  /@kasisoft/remark-svelte-auto-import@0.2.3:
-    resolution: {integrity: sha512-xM9i+Aknw8uthzubEwuRCQJJMb0UIPUDbz6GPFmkLLVUQeyORyrblnixNtPI4DMAKmxS4pqeBni91v8ofa28PA==}
+  /@kasisoft/remark-svelte-auto-import@0.2.4:
+    resolution: {integrity: sha512-EVsgklFyq0HSahtr0gNog3LnTIVW5MZVNOoEvGC6VZpunF8FpQL1niPAKDHXshs6cfCFSrQclp5GZfleLLcDcw==}
     engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 

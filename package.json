@@ -14,8 +14,8 @@
     "packageManager": "pnpm@8.15.5",
     "devDependencies": {
         "@fontsource/fira-mono": "^4.5.10",
-        "@kasisoft/remark-imagetools": "^0.1.2",
-        "@kasisoft/remark-svelte-auto-import": "^0.2.3",
+        "@kasisoft/remark-imagetools": "^0.1.3",
+        "@kasisoft/remark-svelte-auto-import": "^0.2.4",
         "@neoconfetti/svelte": "^1.0.0",
         "@sveltejs/adapter-auto": "^3.1.1",
         "@sveltejs/adapter-static": "^3.0.1",
