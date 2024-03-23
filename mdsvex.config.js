@@ -1,7 +1,7 @@
 // @see https://mdsvex.com/docs#options
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
-import { Debug, remarkImagetools } from '@kasisoft/remark-imagetools';
-import {  remarkSvelteAutoImport } from '@kasisoft/remark-svelte-auto-import';
+import { remarkImagetools } from '@kasisoft/remark-imagetools';
+import { remarkSvelteAutoImport } from '@kasisoft/remark-svelte-auto-import';
 
 const config = defineConfig({
 
@@ -11,7 +11,7 @@ const config = defineConfig({
         [
             remarkImagetools,
             {
-                debug: ['None', 'ScriptBefore', 'ScriptAfter'],
+                debug: ['ScriptBefore', 'ScriptAfter'],
                 presets: [
                     {
                         name: "mobile",
@@ -23,7 +23,7 @@ const config = defineConfig({
         [
             remarkSvelteAutoImport,
             {
-                debug: ['None', 'ScriptBefore', 'ScriptAfter'],
+                debug: ['ScriptBefore', 'ScriptAfter'],
                 scriptTS: true,
                 directories: [
                     'src/lib/components/'
