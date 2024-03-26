@@ -8,6 +8,9 @@ devDependencies:
   '@fontsource/fira-mono':
     specifier: ^4.5.10
     version: 4.5.10
+  '@kasisoft/remark-autolinker':
+    specifier: ^0.1.0
+    version: 0.1.0
   '@kasisoft/remark-imagetools':
     specifier: ^0.1.3
     version: 0.1.3
@@ -591,6 +594,11 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@kasisoft/remark-autolinker@0.1.0:
+    resolution: {integrity: sha512-+bVyVj4wqqoU0cCRkPUfPmgT7hPOb6M8Z6yr2xcNIJ21EYu8TK7pP9ZpGx0eF5+mMpC3SmVBooJsuHeYdQLdHg==}
+    engines: {node: '>=18.0.0', pnpm: '>=8.15.0'}
     dev: true
 
   /@kasisoft/remark-imagetools@0.1.3:
