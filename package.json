@@ -1,6 +1,6 @@
 {
     "name": "remark-example",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "module",
     "scripts": {
         "dev": "svelte-kit sync && vite dev",
@@ -14,13 +14,13 @@
     "packageManager": "pnpm@8.15.5",
     "devDependencies": {
         "@fontsource/fira-mono": "^4.5.10",
-        "@kasisoft/remark-autolinker": "^0.2.2",
-        "@kasisoft/remark-imagetools": "^0.1.5",
-        "@kasisoft/remark-svelte-auto-import": "^0.2.6",
+        "@kasisoft/remark-autolinker": "^0.2.3",
+        "@kasisoft/remark-imagetools": "^0.1.6",
+        "@kasisoft/remark-svelte-auto-import": "^0.2.7",
         "@neoconfetti/svelte": "^1.0.0",
         "@sveltejs/adapter-auto": "^3.3.1",
         "@sveltejs/adapter-static": "^3.0.8",
-        "@sveltejs/kit": "^2.15.1",
+        "@sveltejs/kit": "^2.22.2",
         "@sveltejs/vite-plugin-svelte": "^3.1.2",
         "@types/eslint": "^8.56.12",
         "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -31,14 +31,14 @@
         "front-matter": "^4.0.2",
         "js-yaml": "^4.1.0",
         "mdsvex": "^0.11.2",
-        "prettier": "^3.4.2",
-        "prettier-plugin-svelte": "^3.3.2",
+        "prettier": "^3.6.2",
+        "prettier-plugin-svelte": "^3.4.0",
         "rehype-slug": "^6.0.0",
-        "svelte": "^4.2.19",
+        "svelte": "^4.2.20",
         "svelte-check": "^3.8.6",
         "tslib": "^2.8.1",
-        "typescript": "^5.7.2",
-        "vite": "^5.4.11",
+        "typescript": "^5.8.3",
+        "vite": "^5.4.19",
         "vite-imagetools": "^6.2.9"
     }
 }
