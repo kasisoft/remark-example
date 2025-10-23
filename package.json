@@ -1,6 +1,6 @@
 {
     "name": "remark-example",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "module",
     "scripts": {
         "dev": "svelte-kit sync && vite dev",
@@ -14,9 +14,9 @@
     "packageManager": "pnpm@8.15.5",
     "devDependencies": {
         "@fontsource/fira-mono": "^4.5.10",
-        "@kasisoft/remark-autolinker": "^0.2.3",
-        "@kasisoft/remark-imagetools": "^0.1.6",
-        "@kasisoft/remark-svelte-auto-import": "^0.2.7",
+        "@kasisoft/remark-autolinker": "^0.2.4",
+        "@kasisoft/remark-imagetools": "^0.1.7",
+        "@kasisoft/remark-svelte-auto-import": "^0.2.8",
         "@neoconfetti/svelte": "^1.0.0",
         "@sveltejs/adapter-auto": "^3.3.1",
         "@sveltejs/adapter-static": "^3.0.8",
